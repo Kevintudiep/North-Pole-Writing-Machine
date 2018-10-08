@@ -1,7 +1,7 @@
 require 'erb'
 
-kids_data   = File.read('data/kids-data.txt')
-nice_letter = File.read('templates/nice_letter_template.txt.erb')
+kids_data   = File.read('data/kids-data.txt')  #reads kids data
+nice_letter = File.read('templates/nice_letter_template.txt.erb') #reads the nice_letter template
 
 kids_data.each_line do |kid|
 
